@@ -1,0 +1,19 @@
+{
+  "name": "vendor_name/thsb",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Gustavo de Oliveira Fagundes",
+      "email": "jamesgustavo133@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/",
+      "THB\\": "vendor/THB/"
+    }
+  }
+
+}
