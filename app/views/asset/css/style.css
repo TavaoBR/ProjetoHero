@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+    background-color: #05265B;
+    color: white;
+}
+
+.header-left
+{
+display: flex;
+align-items: center;
+}
+
+.header-left img
+{
+    width: 100px;
+    margin-left: 15px;
+}
+
+.header i{
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+.header-search form{
+    border: 1px solid #dddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-search input
+{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+
+.header-search button
+{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+}
+
+.header_icons i{
+ font-size: 22px;
+}
+
+.mainBody{
+    height: calc(100vh - 70px);
+    display: flex;
+}
+
+.sidebar
+{
+    height: 100%;
+    width: 230px;
+    background-color: #05265B;
+    color: white;
+    overflow: scroll;
+}
+
+.sidebar-categories
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.sidebar-category
+{
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+
+}
+
+.sidebar-category span
+{
+margin-left: 15px;
+}
+
+.sidebar-category:hover
+{
+    cursor: pointer;
+}
+
+.sidebar::-webkit-scrollbar
+{
+    display: none;
+}
+
+hr{
+    height: 1px;
+    background-color: white;
+    border: none;
+}
